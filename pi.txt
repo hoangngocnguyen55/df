@@ -1,1 +1,2 @@
-whoami
+echo địt mẹ tiến
+echo bố m là siêu mã độc tấn công nassa
