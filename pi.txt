@@ -1,1 +1,1 @@
-echo địt mẹ mày > 1.txt
+echo dit_con_me_may_lon > 1.txt
